@@ -1,0 +1,28 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel ./src/*.html",
+    "build": "parcel build ./src/*.html",
+    "clean: windows": "del dist .parcel-cache",
+    "clean: linux": "rm -rf dist .parcel-cache"
+  },
+  "author": "Talaxy009",
+  "license": "MIT",
+  "dependencies": {
+    "@mui/icons-material": "^5.2.5",
+    "@mui/material": "^5.2.6",
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.1.0",
+    "axios": "^0.24.0",
+    "md5": "^2.3.0",
+    "parcel": "^2.0.1",
+    "react": "^17.0.2",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.3"
+  },
+  "resolutions": {
+    "@mui/styled-engine": "npm:@mui/styled-engine-sc@^5.1.0"
+  }
+}
